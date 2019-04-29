@@ -1,0 +1,92 @@
+ol, ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  padding: 3em 0;
+  background: url(../img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+/* start contaner */
+#contaner{
+  width: 70%;
+  margin: 0em auto;
+}
+/* End contaner */
+/* start header */
+#header #logo{
+  float: left;
+}
+#header ul{
+  float: right;
+  list-style-type: none;
+
+}
+#header li{
+  display: inline-block;
+  margin: 15px 5px;
+
+}
+#header li img{
+  width: 20px;
+  padding: 5px;
+  border: 1px solid #fff;
+}
+/* End header */
+/* start left-side section */
+.left-side{
+  margin-top: 80px;
+  float: left;
+  width: 58%;
+}
+.left-side ul{
+  float: left;
+  margin-top: 20px;
+}
+.left-side li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+.left-side li a{
+  background: #1A829A;
+  border: 1px solid #1A829A;
+  color: #ffffff;
+  padding: 13px 30px;
+  text-decoration: none;
+}
+.left-side li a.cuntact-us{
+  background: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 13px 30px;
+}
+/* End left-side section */
+/* start right-side section */
+.right-side{
+  float: right;
+  width: 40%;
+  margin-top: 80px;
+}
+.right-side ul{
+  border: 1px solid #ffffff;
+
+}
+.right-side ul li{
+  padding: 23px 58px;
+}
+.right-side ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+/* End right-side section */
+/* start footer */
+#footer{
+  text-align: center;
+  padding-top: 80px;
+  clear: both;
+}
+/* End footer */
